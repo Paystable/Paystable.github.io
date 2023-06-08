@@ -1,260 +1,260 @@
-/* Desktop */
-@media only screen and (min-width: 1536px) and (max-width: 2560px) {
-    .container {
-        width: 100%;
-        max-width: 1440px;
-        margin: 0 auto;
-    }
-}
-
-/* Laptop */
-@media only screen and (min-width: 1251px) and (max-width: 1535px) {
-    .container {
-        width: 100%;
-        max-width: 1220px;
-        margin: 0 auto;
-    }
-}
-
-/* Small Laptop */
-@media only screen and (min-width: 1025px) and (max-width: 1250px) {
-    .container {
-        max-width: 100%;
-        width: auto;
-        margin: 0 30px;
-    }
-    #banner .container {
-        width: 100%;
-        max-width: auto;
-    }
-    h1 {
-        font-size: 4rem;
-    }
-    h2 {
-        font-size: 2.5rem;
-    }
-    .icon_2 {
-        bottom: -20%;
-    }
-    .cta_img img {
-        width: 90%;
-    }
-}
-
-/* Ipad pro landscape */
-@media only screen and (min-width: 901px) and (max-width: 1024px) {
-    .container {
-        max-width: 100%;
-        width: auto;
-        margin: 0 30px;
-    }
-    #banner .container {
-        width: 100%;
-        max-width: auto;
-    }
-    h1 {
-        font-size: 3.5rem;
-    }
-    h2 {
-        font-size: 2.25rem;
-    }
-    h3 {
-        font-size: 1.8rem;
-    }
-    .icon_1 {
-        top: 0;
-    }
-    .icon_2 {
-        bottom: -25%;
-    }
-    .cta_img img {
-        width: 90%;
-    }
-}
-
-/* Orientation : Portrait For Ipad Pro */  
-@media only screen and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1) and (min-device-width : 901px) and (max-device-width : 1024px) {
-    .icon_1 {
-        top: -45%;
-    }
-    .icon_2 {
-        bottom: -55%;
-    }
-    .icon_3 {
-        top: 55%;
-    }
-    .cta_img img {
-        width: 100%;
-    }
-    h1 {
-        font-size: 4.75rem;
-    }
-    h2 {
-        font-size: 2.75rem;
-    }
-    #paybox, #fullpaybox, #showpaybox {
-        height: auto
-    }
-    .paybox_img img {
-        width: 80%;
-    }
-}
-
-/* Tablet View landscape */
-@media only screen and (min-width: 768px) and (max-width: 900px) {
-    .container {
-        max-width: 100%;
-        width: auto;
-        margin: 0 30px;
-    }
-    #banner .container {
-        width: 100%;
-        max-width: auto;
-    }
-    h1 {
-        font-size: 3.5rem;
-    }
-    h2 {
-        font-size: 2rem;
-    }
-    h3 {
-        font-size: 1.7rem;
-    }
-    .banner_icon {
-        padding: 12px 20px;
-        width: 115px;
-    }
-    .icon_1 {
-        top: -20%;
-    }
-    .icon_2 {
-        bottom: -35%;
-    }
-    .icon_3 {
-        top: 45%;
-    }
-    .cta_img img {
-        width: 100%;
-    }
-    .cta_text {
-        width: 100%;
+    /* Desktop */
+    @media only screen and (min-width: 1536px) and (max-width: 2560px) {
+        .container {
+            width: 100%;
+            max-width: 1440px;
+            margin: 0 auto;
+        }
     }
 
-
-    .paybox_img img {
-        width: 75%;
-    }
-}
-
-/* Orientation : Portrait For Ipad */  
-@media only screen and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1) and (min-device-width : 768px) and (max-device-width : 900px) {
-    .icon_1 {
-        top: -49%;
-    }
-    .icon_2 {
-        bottom: -45%;
-    }
-    .icon_3 {
-        top: 60%;
-    }
-    .cta_img img {
-        width: 100%;
-    }
-    h1 {
-        font-size: 3.75rem;
-    }
-    h2 {
-        font-size: 2.25rem;
-    }
-    h3 {
-        font-size: 1.8rem;
+    /* Laptop */
+    @media only screen and (min-width: 1251px) and (max-width: 1535px) {
+        .container {
+            width: 100%;
+            max-width: 1220px;
+            margin: 0 auto;
+        }
     }
 
-    .paybox_img img {
-        width: 95%;
-    }
-    #showpaybox {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-/* Mobile Devices */
-@media only screen and (min-width: 260px) and (max-width: 767px) {
-    .container {
-        max-width: 100%;
-        width: auto;
-        margin: 0 15px;
-    }
-    #banner .container {
-        width: 100%;
-        max-width: auto;
-    }
-    img {
-        width: 100%;
-    }
-    h1 {
-        font-size: 2.8rem;
-    }
-    h1 br {
-        display: none;
-    }
-    h2 {
-        font-size: 2rem;
-    }
-    h3 {
-        font-size: 1.5rem;
-    }
-    .icon_1 {
-        top: -35%;
-    }
-    .icon_2 {
-        bottom: -40%;
-        left: 7%;
-    }
-    .icon_3 {
-        top: 50%;
-    }
-    .banner_icon {
-        padding: 8px 16px;
-        width: auto;
-    }
-    .banner_icon img {
-        max-height: 30px;
-        max-width: 30px;
-        margin-bottom: 8px;
+    /* Small Laptop */
+    @media only screen and (min-width: 1025px) and (max-width: 1250px) {
+        .container {
+            max-width: 100%;
+            width: auto;
+            margin: 0 30px;
+        }
+        #banner .container {
+            width: 100%;
+            max-width: auto;
+        }
+        h1 {
+            font-size: 4rem;
+        }
+        h2 {
+            font-size: 2.5rem;
+        }
+        .icon_2 {
+            bottom: -20%;
+        }
+        .cta_img img {
+            width: 90%;
+        }
     }
 
-    .cta_flex {
-        flex-direction: column-reverse;
-    }
-    .col_6 {
-        width: 100%;
-    }
-    .cta_img img {
-        width: 100%;
-        margin-bottom: 50px;
+    /* Ipad pro landscape */
+    @media only screen and (min-width: 901px) and (max-width: 1024px) {
+        .container {
+            max-width: 100%;
+            width: auto;
+            margin: 0 30px;
+        }
+        #banner .container {
+            width: 100%;
+            max-width: auto;
+        }
+        h1 {
+            font-size: 3.5rem;
+        }
+        h2 {
+            font-size: 2.25rem;
+        }
+        h3 {
+            font-size: 1.8rem;
+        }
+        .icon_1 {
+            top: 0;
+        }
+        .icon_2 {
+            bottom: -25%;
+        }
+        .cta_img img {
+            width: 90%;
+        }
     }
 
-    .copyright {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .copy_text p, .copy_text a, .footer_menu a {
-        font-size: .925rem;
-    }
-    .footer_menu li {
-        margin-left: 0;
-        margin-right: 30px;
+    /* Orientation : Portrait For Ipad Pro */  
+    @media only screen and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1) and (min-device-width : 901px) and (max-device-width : 1024px) {
+        .icon_1 {
+            top: -45%;
+        }
+        .icon_2 {
+            bottom: -55%;
+        }
+        .icon_3 {
+            top: 55%;
+        }
+        .cta_img img {
+            width: 100%;
+        }
+        h1 {
+            font-size: 4.75rem;
+        }
+        h2 {
+            font-size: 2.75rem;
+        }
+        #paybox, #fullpaybox, #showpaybox {
+            height: auto
+        }
+        .paybox_img img {
+            width: 80%;
+        }
     }
 
-    .paybox_img img {
-        width: 98%;
+    /* Tablet View landscape */
+    @media only screen and (min-width: 768px) and (max-width: 900px) {
+        .container {
+            max-width: 100%;
+            width: auto;
+            margin: 0 30px;
+        }
+        #banner .container {
+            width: 100%;
+            max-width: auto;
+        }
+        h1 {
+            font-size: 3.5rem;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1.7rem;
+        }
+        .banner_icon {
+            padding: 12px 20px;
+            width: 115px;
+        }
+        .icon_1 {
+            top: -20%;
+        }
+        .icon_2 {
+            bottom: -35%;
+        }
+        .icon_3 {
+            top: 45%;
+        }
+        .cta_img img {
+            width: 100%;
+        }
+        .cta_text {
+            width: 100%;
+        }
+
+
+        .paybox_img img {
+            width: 75%;
+        }
     }
-    #showpaybox {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+
+    /* Orientation : Portrait For Ipad */  
+    @media only screen and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1) and (min-device-width : 768px) and (max-device-width : 900px) {
+        .icon_1 {
+            top: -49%;
+        }
+        .icon_2 {
+            bottom: -45%;
+        }
+        .icon_3 {
+            top: 60%;
+        }
+        .cta_img img {
+            width: 100%;
+        }
+        h1 {
+            font-size: 3.75rem;
+        }
+        h2 {
+            font-size: 2.25rem;
+        }
+        h3 {
+            font-size: 1.8rem;
+        }
+
+        .paybox_img img {
+            width: 95%;
+        }
+        #showpaybox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
-}
+
+    /* Mobile Devices */
+    @media only screen and (min-width: 260px) and (max-width: 767px) {
+        .container {
+            max-width: 100%;
+            width: auto;
+            margin: 0 15px;
+        }
+        #banner .container {
+            width: 100%;
+            max-width: auto;
+        }
+        img {
+            width: 100%;
+        }
+        h1 {
+            font-size: 2.8rem;
+        }
+        h1 br {
+            display: none;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+        .icon_1 {
+            top: -35%;
+        }
+        .icon_2 {
+            bottom: -40%;
+            left: 7%;
+        }
+        .icon_3 {
+            top: 50%;
+        }
+        .banner_icon {
+            padding: 8px 16px;
+            width: auto;
+        }
+        .banner_icon img {
+            max-height: 30px;
+            max-width: 30px;
+            margin-bottom: 8px;
+        }
+
+        .cta_flex {
+            flex-direction: column-reverse;
+        }
+        .col_6 {
+            width: 100%;
+        }
+        .cta_img img {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+
+        .copyright {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .copy_text p, .copy_text a, .footer_menu a {
+            font-size: .925rem;
+        }
+        .footer_menu li {
+            margin-left: 0;
+            margin-right: 30px;
+        }
+
+        .paybox_img img {
+            width: 98%;
+        }
+        #showpaybox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
