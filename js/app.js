@@ -21,17 +21,17 @@ const locoScroll = new LocomotiveScroll({
         });
 
 
-    let tlh = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".spacer",
-        scroller: ".o-scroll",
-        start: "bottom bottom",
-        scrub: true,
-        pin: true,
-        end: "+=300%",
-        pinSpacing: false
-      },
-    });
+    // let tlh = gsap.timeline({
+    //   scrollTrigger: {
+    //     trigger: ".spacer",
+    //     scroller: ".o-scroll",
+    //     start: "bottom bottom",
+    //     scrub: true,
+    //     pin: true,
+    //     end: "+=250%",
+    //     pinSpacing: false
+    //   },
+    // });
  
     // let tlFadeIn = gsap.timeline({
     //   scrollTrigger: {
@@ -69,16 +69,16 @@ const locoScroll = new LocomotiveScroll({
 gsap.utils.toArray("#paybox").forEach((section) => {
         var tls = gsap.timeline({
             scrollTrigger: {
-                trigger: section,
+                trigger: "#paybox",
                 scroller: ".o-scroll",
-                // scrub: true,
                 start: "top top",
-                end: "+=200%",
+                end: "+=100%",
                 pin: true
             }
         });
-  
-const textTitle = section.querySelectorAll(".p_img_one");
+
+        
+      const textTitle = section.querySelectorAll(".p_img_one");
       const textText = section.querySelectorAll(".p_img_two");
 
         tls
@@ -86,26 +86,25 @@ const textTitle = section.querySelectorAll(".p_img_one");
         .to(textText, { duration: 1, autoAlpha: 1, y: 0, }, 1)
         // .to(textTitle, { duration: 1, autoAlpha: 0, y: -100 }, 3)
         // .to(textText, { duration: 1, autoAlpha: 0, y: -100 }, 3)
-});
+      });
+
 
 
         ScrollTrigger.create({
           trigger: "#fullpaybox",
           scroller: ".o-scroll",
-          start: "top top",
+          start: "-=50% top",
           end: "+=100%",
-          pin: true
         })
 
-        const testing = gsap.to('#fullpaybox', { autoAlpha: 1 })
+        const testing = gsap.to('#fullpaybox', { duration: 1.5, autoAlpha: 1, y: 0 })
 
         ScrollTrigger.create({
           trigger: "#fullpaybox",
           scroller: ".o-scroll",
-          start: "top top",
+          start: "-=50% top",
           end: "+=100%",
           animation: testing,
-        //   scrub: true,
         })
 
 
